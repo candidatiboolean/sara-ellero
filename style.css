@@ -1,0 +1,79 @@
+body{
+  background: url(background.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+#logo{
+  width: 200px;
+  display: block;
+  margin: 0 auto 10px;
+}
+h1{
+  color: #00dd00;
+  text-align: center;
+  margin-bottom: 2px;
+}
+h2,
+  p{
+    margin-bottom: 2px;
+  }
+button{
+  padding: 2px 3px;
+  border-radius: 1px;
+  border: 1px solid #333;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 5%;
+  width: 20%;
+  height: 120vh;
+  min-width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+nav{
+  background-color: #00dd00;
+  padding: 5px 0;
+  text-align: center;
+  margin-bottom: 2px;
+}
+ul{
+  color: white;
+  list-style: none;
+}
+li{
+  margin-bottom: 10px;
+}
+li h2:before {
+  content: '\25A0';
+  margin-right: 4px;
+  position: center;
+  bottom: 50px;
+}
+.progressBar {
+  height: 30px;
+  border-radius: 7px;
+}
+#ProgressBar1 {
+  width: 30%;
+  background-color: orange;
+}
+#ProgressBar2 {
+  width: 20%;
+  background-color: red;
+}
+#ProgressBar3 {
+  width: 60%;
+  background-color: green;
+}
+#logo {
+  padding: 2px;
+  margin-top: 100px;
+}
